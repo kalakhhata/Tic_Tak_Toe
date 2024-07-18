@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: monospace;
 }
 
 body{
@@ -34,6 +35,7 @@ body{
     border: none;
     background-color: antiquewhite;
     font-size: 8vmin;
+    color: #191913;
 
 }
 
@@ -56,14 +58,15 @@ body{
 }
 
 #msg{
-    color: antiquewhite;
+    color: black;
+    font-size: 5vmin;
 
 }
 
 .msg-container{
-    height: 25vmin;
+    height: 15vmin;
 }
 
 .hide{
-    display: none;
+    visibility: hidden;
 }
